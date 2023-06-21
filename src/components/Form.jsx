@@ -14,9 +14,10 @@ const Form = ({newLocation}) => {
     return (
         <div className='container'>
             <form onSubmit={onSubmit}>
+                <br />
                 <div className='input-group mb-3 mx-auto'>
-                    <input type="text" className='form-control' placeholder='City' onChange={(e) => setCity(e.target.value)} />
-                    <button className='btn btn-primary input-group-text' type="submit">Search</button>
+                    <input type="text" className='form-control bg-light text-black' placeholder='City' onChange={(e) => setCity(e.target.value)} />
+                    <button className='btn btn-primary input-group-text bg-dark text-white'  type="submit">Search</button>
 
                 </div>
 

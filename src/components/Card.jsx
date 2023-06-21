@@ -65,7 +65,7 @@ export const Card = ({loadingData, showData, weather, forecast}) => {
    <div className="mt-5">
     {showData === true ? (
         <div className="container">
-        <div className="card mb-3 mx-auto bg-dark text-light">
+        <div className="card mb-3 mx-auto text-light">
             <div className="row g-0">
                 <div className="col-md-4">
                     <h3 className="card-title">{weather.name}</h3>
@@ -131,7 +131,7 @@ export const Card = ({loadingData, showData, weather, forecast}) => {
     </div>  
     )
         :
-        (<h2 className="text-light">No info yet ;) </h2>)
+        (<h2 className="text-light"></h2>)
     }
     
    </div>
